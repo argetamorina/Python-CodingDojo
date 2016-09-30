@@ -15,3 +15,5 @@ for x in xrange(1,11):
 		print "Score is %(first)d. Your grade is B"  % {"first": score}
 	if score >= 90 and score <= 100:
 		print "Score is %(first)d. Your grade is A"  % {"first": score}
+	if score > 100 or score < 0:
+		print "Error"
